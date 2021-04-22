@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^12.7.1",
     "axios": "^0.21.1",
     "chart.js": "^2.9.4",
+    "dotenv": "^8.2.0",
     "equation-resolver": "^0.3.2",
     "framer-motion": "^4.1.4",
     "i": "^0.3.6",
