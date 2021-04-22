@@ -1,0 +1,13 @@
+.btn button {
+  background-color: #1abc9c;
+  border: #16a084;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 6px;
+  border-radius: 12px;
+  width: 60px;
+  height: 30px;
+  text-align: center;
+}

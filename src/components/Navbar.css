@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  text-align: left;
+  background: #1abc9c;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  max-height: 80px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
