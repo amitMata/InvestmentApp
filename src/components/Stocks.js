@@ -61,6 +61,8 @@ const Stocks = () => {
 
   } , []);
 
+  
+
   return (
     <div className="container">
     <br></br>
@@ -89,6 +91,7 @@ const Stocks = () => {
           <StockChart symbol={currentStock.symbol} />
         </div>
       }
+      <br></br>
     </div>
   );
 }

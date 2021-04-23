@@ -70,6 +70,7 @@ const CI = () => {
         </div>
         {error && isCalculated && <span>Please fill all the inputs with positive numbers!</span>}
         {!error &&isCalculated && <div>The final amount of money is: {finalResult}$ <div><br></br><CIChart initialAmount={initialAmount} numOfYears={numOfYears} interestRate={interestRate} finalResult={finalResult}/></div></div>}
+        <br></br>
     </div>
   )
 }

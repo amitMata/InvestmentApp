@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css';
 import Logo from './AdditionalComponents/linkedinpic.png';
+import GithubLogo from './AdditionalComponents/github.png';
 
 const About = () => {
   return (
@@ -15,8 +16,9 @@ const About = () => {
       In the creation of this App I used: React Hooks, React Portals, React Router, Axios for fetching information from APIs (Both finnhub.io and ALPHA VANTAGE), ChartJS, and more... <br></br>
       <br></br>
       If you'd like to contact me, here is a link to my Linkedin page:<br></br>
-      <a href="https://www.linkedin.com/in/amit-matalon/" target="_blank"><img src={Logo} /></a> <br></br>
-      For the project's github link:
+      <a href="https://www.linkedin.com/in/amit-matalon/" target="_blank"><img src={Logo} style={{height: '30px'}} /></a> <br></br>
+      For the project's github link:<br></br>
+      <a href="https://www.github.com/amitMata/InvestmentApp" target="_blank"><img src={GithubLogo} /></a> <br></br>
 
     </div>
   )

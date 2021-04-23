@@ -12,7 +12,7 @@ const Modal = ({open, onClose}) => {
     <div className="overlay"></div>
     <div className="containerModal">
       <div className="paragraph">
-        <br></br><h4> So What Is Compound Interest? </h4>
+        <h4> So What Is Compound Interest? </h4>
         There's a reason Enstein once defined Compound Interest as the 8th Wonder Of the world.
         <br></br>Compound Interest is a term describing an interesting phenomena taken from the finances and economic worlds. Compoud interest, is the interest earned on interest.<br></br>
         <br></br>CI is calculated with the following formula: <CIFormula/>

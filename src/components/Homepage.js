@@ -22,9 +22,6 @@ const Homepage = () => {
         </Link>
         <br></br> 
       </div>
-      <div className="footer">
-        <div className="text">Made by Amit Matalon</div>
-      </div>
     </div>
   )
 }
