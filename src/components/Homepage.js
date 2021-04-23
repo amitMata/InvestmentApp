@@ -20,7 +20,7 @@ const Homepage = () => {
         <Link to="/CI">
           <button>CI Calculator Page</button>
         </Link>
-        <br></br> 
+        <br></br><br></br>
       </div>
     </div>
   )
